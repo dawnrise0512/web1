@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <title> 배운것 2</title>
+  </head>
+
+  <body>
+    <p><a href="https://www.w3.org/TR/2011/WD-html5-20110405/" title="html5 specification">">태그 a는 anchor의 준말로 닻을 의미한다. 다르게 말하면 link라고 볼수있다.</a></p>
+    <p>title은 링크의 타이틀(마우스를 두면 확인할 수 있는 링크의 설명)을 넣는 속성</p>
+  </body>
+
+  <h1><a href="index.html">대주제</a></h1>
+  <ol>
+    <li><a href="1. html">HTML</a></li>
+    <li><a href="2. html">CSS</a></li>
+    <li><a href="3. html">JavaScript</a></li>
+  </ol>
+
+  <h2>중주제</h2>
+</html>

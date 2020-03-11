@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>웹사이트의 이름 명시 like 책 표지</title>
+    <meta charset="utf-8">//사이트 출력형식, character set : 문자규칙 지정
+     - title과 meta는 본문에 대한 설명하므로 head로 묶어야한다. 그 외에는 body로 묶어야한다.
+  </head>
+
+  <body>
+    <br>HTML 문서는 <!DOCTYPE html> 선언을 작성하여 HTML5 문서임을 알려야 합니다.
+    <br>HTML 문서는 <html> 태그와 </html> 태그 사이에 코드가 작성됩니다.
+        html은 최상위 태그
+    <br>HTML 문서에서 시각적으로 보이는 부분은 <body> 태그와 </body> 태그 사이에 포함됩니다.
+
+
+    <h1>헤드</h1>
+    <h2>점점 작아진다.</h2>
+
+    <u>밑줄, <b>강조, </b><strong>강조</strong></u>
+
+    <p>This is a 단락으로 이게 더 좋은 태그.</p>
+    <br>This is a 줄바꿈
+    <p style="margin-top:50px"> css라고 하는 것으로 html의 문법이 아닌 것을 넣기위해 style을 입력 후 여백의 간격을 50px로 바꾼것 - 당장은 알 필요 없다.
+
+    <p>속성이란 tag로는 표현하기 힘든 문법을 보조하는 새로운 문법으로 src가 태그 img의 속성을 의미한다. <img width="100" src="coding.jpg" alt="">
+    <br>width는 크기 설정, img는 사진첨부 </p>
+
+    <ul>
+      <li>li란 list를 의미하는 것이며, unordered list의 약자이다. </li>
+      <li>해당되는 list를 묶기위한 부모태그로 ul을 이용한다. li는 자식태그이다. </li>
+    </ul>
+
+    <ol>
+      <li>ol이란 숫자목록으로 grouping되며 ordered list의 약자이다. </li>
+      <li>li는 자식태그이다. </li>
+    </ol>
+  </body>
+</html>
